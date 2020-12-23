@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+
+    <link rel="stylesheet" type="text/css" href="/Users/arti/Desktop/projektiWEB/css/loginstyle.css">
+
+</head>
+
+<body>
+    
+
+    <div class="body"></div>
+    <div class="grad"></div>
+    <div class="header">
+        <div>e<span>Molla</span></div>
+    </div>
+    <br>
+    <div class="login">
+
+
+        <form id="forma1">
+            <input type="text" id="user" placeholder="username" name="user"><br>
+            <input type="password" id="pass" placeholder="password" name="password"><br>
+            <!-- <input name ="Login" type="button" value="Login"> -->
+            <input type="hidden">
+            <!-- <input name="submit" type="button" value=" Login "> -->
+
+            <button name="submit" id="buttoni1" onclick="validate();">Login</button>
+
+        </form>
+    </div>
+
+</body>
+    <script>
+        function validate(){
+            var username = document.getElementById("user").value;
+            var password = document.getElementById("pass").value;
+
+            if(username == null || password == ""){
+                alert("Mbush te dhenat");
+            }else if(password == null || password == ""){
+                alert("Mbush te dhenat")
+            }
+        }
+    </script>
+</html>

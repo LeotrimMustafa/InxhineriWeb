@@ -1,0 +1,66 @@
+/** brand **/
+.brand {
+    padding-top: 60px;
+    border-top: #db0000 solid 6px;}
+
+.brand-bg {
+    background: #ebebeb;
+    padding: 90px 0px;
+    font-family: Myriad Pro;
+}
+
+.margin {
+    margin-bottom: 30px;
+}
+
+
+.brand-bg .brand_box {
+    background: #fff;
+    text-align: center;
+    padding: 80px 0px 30px 0px ;
+}
+.brand-bg .brand_box > img {
+   height: 200px;
+   width: auto;
+}
+.brand-bg .brand_box h3 {
+
+    font-size: 27px;
+    font-weight: bold;
+    color: #131313;
+    padding: 17px 0px 0px 0px;
+}
+.red {
+    color: #ff0000;
+}
+
+.brand-bg .brand_box span {
+    display: block;
+    color: #19449b;
+    font-size: 16px;
+line-height: 16px;
+padding-bottom: 3px;
+} 
+.brand-bg .brand_box i {
+    padding: 0px 2px;
+}
+
+.read-more { 
+font-family: poppins;
+max-width: 212px;
+margin: 0 auto;
+margin-top: 0px;
+display: block;
+background: #000;
+color: #fff !important;
+padding: 12px 0px;
+width: 100%;
+font-size: 17px;
+text-align: center;
+border-radius: 32px;
+margin-top: 40px
+}
+
+.read-more:hover {
+    background: #ff0000;
+}
