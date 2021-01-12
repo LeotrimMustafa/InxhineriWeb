@@ -1,12 +1,8 @@
-/** brand **/
-.brand {
-    padding-top: 60px;
-    border-top: #db0000 solid 6px;}
 
 .brand-bg {
-    background: #ebebeb;
-    padding: 90px 0px;
-    font-family: Myriad Pro;
+    background: #fff;
+    padding: 30px 0px;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .margin {
@@ -17,50 +13,52 @@
 .brand-bg .brand_box {
     background: #fff;
     text-align: center;
-    padding: 80px 0px 30px 0px ;
+    padding: 50px;
 }
 .brand-bg .brand_box > img {
-   height: 200px;
+   max-height: 250px;
    width: auto;
 }
 .brand-bg .brand_box h3 {
 
-    font-size: 27px;
-    font-weight: bold;
+    font-size: 24px;
+    font-weight: 400;
     color: #131313;
     padding: 17px 0px 0px 0px;
 }
 .red {
-    color: #ff0000;
+    color: #0c8e00;
 }
 
 .brand-bg .brand_box span {
     display: block;
     color: #19449b;
-    font-size: 16px;
-line-height: 16px;
-padding-bottom: 3px;
+    font-size: 26px;
+padding-bottom: 10px;
+padding-top: 30px;
+font-weight: 400;
 } 
 .brand-bg .brand_box i {
     padding: 0px 2px;
 }
 
 .read-more { 
-font-family: poppins;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 max-width: 212px;
 margin: 0 auto;
 margin-top: 0px;
 display: block;
-background: #000;
+background-image: linear-gradient(to bottom right, red, purple);
 color: #fff !important;
-padding: 12px 0px;
+padding: 15px 0px;
 width: 100%;
-font-size: 17px;
+font-size: 18px;
 text-align: center;
-border-radius: 32px;
-margin-top: 40px
+border-radius: 20px;
+margin-top: 30px
 }
 
 .read-more:hover {
-    background: #ff0000;
+    opacity: 1;
+    background-image: linear-gradient(to bottom right, purple, red);
 }
